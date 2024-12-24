@@ -366,4 +366,5 @@ header
     background: var(--light-orange-color);
     color: var(--bg-color);
     padding: 4px 18px;
+    clip-path:polygon(100%,0%,75%,50%,100%,100%,0,100%,0% 50%,0 0);
 }    
