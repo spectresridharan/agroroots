@@ -423,12 +423,12 @@ header
    gap: 1.5rem;
    margin-top: 2rem;
 }
-.customers-container .box
-{
-     padding: 240px;
-     box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
-     border-radius: 0.5rem;
-     border-bottom: 7px solid var(--green-color);
+.customers-container .box {
+    min-height: 240px; /* Ensures the box maintains a consistent size */
+    padding: 20px; /* Keeps inner spacing reasonable */
+    box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+    border-radius: 0.5rem;
+    border-bottom: 7px solid var(--green-color);
 }
 .customers-container .box:hover
 {
@@ -745,4 +745,3 @@ header
         gap: 1.5rem;
     }
 }
-
