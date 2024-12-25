@@ -55,7 +55,7 @@ header
   height: 40px;
   object-fit: cover;
   object-position: center;
-  border border-radius: 50%; 
+  border-radius: 50%; 
 }
 .profile span 
 {
@@ -110,7 +110,7 @@ header
    min-height: 640px; 
    display: flex;
    align-items: center;
-   background: ;
+   background: url(img/background.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -168,7 +168,7 @@ header
 }
 .swiper-button-next
 {
-    background: url();
+    background: url(img/right-arrow.png    );
     background-repeat: no-repeat;
     background-size: 100%auto;
     background-position: center;
@@ -181,7 +181,7 @@ header
 }
 .swiper-button-prev
 {
-    background: url();
+    background: url(img/right-arrow.png);
     background-repeat: no-repeat;
     background-size: 100%auto;
     background-position: center;
@@ -268,7 +268,7 @@ header
 }
 .box1
 {
-    background: #fef4fea;
+    background: #fef4fa;
 }
 .box2
 {
