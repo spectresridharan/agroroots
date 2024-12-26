@@ -125,7 +125,7 @@ header
    min-height: 640px; 
    display: flex;
    align-items: center;
-   background: url(img/background.png);
+   background: url(img/salad2.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -196,7 +196,7 @@ header
 }
 .swiper-button-prev
 {
-    background: url(img/right-arrow.png);
+    background: url(img/righ-tarrow.png);
     background-repeat: no-repeat;
     background-size: 100%auto;
     background-position: center;
@@ -395,7 +395,8 @@ header
 } 
 .about-text span
 {
-    font-weight: 600;
+    font-weight: bold;
+    font-size:30px;
     text-transform: uppercase;
     color: var(--green-color);
 }
@@ -745,3 +746,13 @@ header
         gap: 1.5rem;
     }
 }
+i.bx {
+    font-size: 24px; /* Adjust size as needed */
+    color: #000; /* Change to desired color */
+    margin: 0 10px; /* Space between icons */
+  }
+  
+  a:hover i.bx {
+    color:orange; /* Change color on hover */
+  }
+  
